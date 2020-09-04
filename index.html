@@ -2,124 +2,74 @@
 <html>
 <head lang="en">
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<meta name="description" content="my portfolio">
+	<meta name="width=device-width,initial-scale=0.1">
+	<meta name="description" content="">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<title>MY PORTFOLIO</title>
-	<style type="text/css">
-		body{
-			margin: 0px;
-			padding: 0px;
-			font-family: verdana,arial;
-			background-image: url(https://images.unsplash.com/photo-1463171379579-3fdfb86d6285?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
-			background-size: 100%;
-			background-position: fixed;
-			background-repeat: no-repeat;
-		}
-
-		header{
-			text-align: center;
-			font-size: 40px;
-			text-transform: capitalize;
-			color: white;
-			background-color:transparent;
-		}
-		ul{
-			list-style-type: none;
-			text-decoration: none;
-			text-transform: capitalize;
-			padding:0px;
-			margin: 0px;
-			position: absolute;
-			overflow: auto;
-			background-color: transparent;
-			width: 100%;
-
-		}
-
-		li a{
-			text-transform: capitalize;
-			text-decoration: none;
-			display: inline-flex;
-			padding: 14px 16px;
-			color: black;
-			height: 100%;
-			
-		}
-
-		 li a.active{
-		 	background-color: green;
-		 	color: white;
-		 }
-		 li a:hover:not(.active)
-		 {
-		 	text-decoration: none;
-		 	color:white;
-		 }
-		
-		 #body{
-		 	background-color:grey;
-		 	opacity: 0.9;
-		 	text-align: center;
-		 	font-size: 20px;
-		 	color: white;
-		 }
-
-		 #left{
-		 	background-image: url(https://images.unsplash.com/photo-1547658718-1cdaa0852790?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
-		 	position: absolute;
-		 	color: black;
-		 	margin-left: 500px;
-		 	margin-right: 300px;
-		 	border: 1px solid black;
-		 }
-		 footer{
-		 	background-color: black;
-		 	opacity: 0.8;
-		 	font-size: 20px;
-		 	margin-top: 150px;
-		 	color: white;
-		 	height: 50px;
-		 	text-align:center;
-
-		 }
-
-	</style>
 </head>
 <body>
-	<header>
-		welcome to my portfolio
+	<header class="bg-success fixed-top">
+	    <nav class="navbar navbar-expand-lg font-weight-bold">
+
+	      <div class="container">
+
+	        <a class="navbar-brand text-white">N.P</a>
+
+	        <div class="collapse navbar-collapse text-uppercase">
+	          <ul class="navbar-nav ml-auto">
+	            <li class="nav-item active">
+	              <a class="nav-link" href="#">Home</a>
+	            </li>
+	            <li class="nav-item">
+	              <a class="nav-link " href="#">about</a>
+	            </li>
+	            <li class="nav-item">
+	              <a class="nav-link " href="#">Portfolio</a>
+	            </li>
+	            <li class="nav-item">
+	            	<a class="nav-link " href="">contacts</a>
+	            </li>
+
+	             </div>
+
+	    </nav>
 	</header>
-		<div id="nav">
-			<ul>
-				<li>
-					<a href="" target="_self"> home</a>
-					<a href="" target="_self">portfolio</a>
-					<a href="mailto:ngupaula2@gmail.com" target="_self">contact me</a>
-				</li>
-			</ul>
-		</div><br><br><br>
-		<hr>
-		
-	<main>
-		<marquee style="font-size: 30px;color: white;">WELCOME</marquee>
-
-		<section id="body">
-			<img src="https://images.unsplash.com/photo-1587613865763-4b8b0d19e8ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" width="300px" height="300px" style="border-radius: 100%;">
-			<p>Hi my name is Paula a software<br>
-			 developer based in cameroon<br>
-			welcome to my portfolio scroll down to explore</p>
-		</section><br><br><br>
-<!--
-		<section id="left">
-			<h1>MY PORTFOLIO</h1>
-			<p>my portfolio is the first project<br>
-			built with html and css.</p>
-			<a href="" target="_self">PORTOLIO</a>
+	<main class="main-index">
+		<section class="index">
+			<div class="container">
+				<div class="message text-center">
+					<div class="h1 text-capitalize font-weight-bold">
+						<span class="text-white text-center">welcome to</span>
+						<span class="text-primary">my site</span>
+					</div>
+					<div class="text-uppercase">
+						<span class="btn btn-round btn-dark">who i am</span>
+						<span class="btn btn-round btn-dark">what i do</span>
+					</div>
+				</div>
+			</div>
 		</section>
-	</main> -->
+	</main>
 
-	<footer>
-		<p>&copy-2020</p>
+	<footer class="bg-dark w-100">
+
+		<div class="row">
+			<div class="col-6 text-left text-white pl-4 py-4">
+				&COPY P4Paula-2020
+			</div>
+			<div class="col-6 py-4 pr-5 text-right">
+				powered by:
+				<a href="nexinch.com">
+					<span class="text-primary">Nex</span><span class="text-danger">Inch</span>
+				</a>
+				
+			</div>
+		</div>
 	</footer>
+
+	<script type="text/javascript" src="assets/js/popper.js"></script>
+	<script type="text/javascript" src="assets/js/bootstrap.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.js"></script>
 </body>
 </html>

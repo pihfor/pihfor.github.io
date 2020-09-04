@@ -1,0 +1,42 @@
+body{
+	margin:0px;
+	padding: 0px;
+	background-image: url(../images/hi.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.main-index{
+	/*padding: 100px;*/
+	min-height: 100vh;
+}
+
+.message {
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	margin-top: -50px;
+}
+
+/*.message{
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	transform: translate3d(-50%, -50%);
+}*/
+
+li a{
+	color: white;
+	text-decoration: none;
+}
+li a.active{
+	color: blue
+}
+li a:hover:not(.active){
+	text-decoration: underline;
+	color: green;
+}
+footer{
+	background-color: grey;
+
+}
