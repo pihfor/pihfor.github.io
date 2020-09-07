@@ -5,11 +5,9 @@ body{
 	margin: 0px;
 	padding: 0px;
 	font-family: verdana;
-	background-image: url(https://images.unsplash.com/photo-1583441424221-c41173afe9ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+	background-color: transparent;
 }
 main{
-	background-color: gray;
-	opacity: 0.9;
 	text-align: center;
 	margin-top: 50px;
 }
