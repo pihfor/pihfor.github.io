@@ -1,15 +1,36 @@
 body{
-    margin: 0px;
-    padding: 0px;
-    background-size: cover;
-    background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
+	font-family: verdana;
+	background-color: transparent;
+	background-attachment: fixed;
+	min-width: 100vw;
 }
-.nav-link{
-    text-transform: capitalize;
+main{
+	text-align: center;
+	margin-top: 50px;
 }
-.btn{
-    border-style: solid;
+
+footer{
+	background-color: black;
+	opacity: 0.9;
+	color: white;
 }
-.col-sm-6{
-    border-top-right-radius: 40px;
+@keyframes example{
+  25%  {color:white; left:700px; top:0px;}
+  100% {color:blue; left:0px; top:0px;}
+}
+button{
+	border-radius: 10%;
+	background-color: darkgray;
+	color: black;
+	height: 50px;
+	text-transform: capitalize;
+}
+button:hover{
+	background-color: steelblue;
+	color: white;
 }
